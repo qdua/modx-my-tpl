@@ -1,2 +1,2 @@
 # modx-my-tpl
-//Hello Woeld!
+## Hello World!
