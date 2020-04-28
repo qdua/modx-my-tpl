@@ -79,3 +79,38 @@
 </body>
 </html>
 ```
+
+### Post ```post``` (template)
+```html
+[[$header]]
+<main>
+    <div class=content>
+        <h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
+        <div class=post>
+            [[pdoResources?
+            	&parents=`[[*id]]`
+            	&tpl=`postRow`
+            	&limit=`0`
+            	&includeTVs=`image`
+            	
+            ]]
+        </div>
+    </div>
+</main> 
+[[$footer]]
+```
+
+### Post Row ```postRow``` (chunk)
+```html
+<div>
+    <article> 
+        <a href="[[~[[+id]]]]" title="[[!fix?input=`[[+pagetitle]]`]]"> 
+            [[+tv.image:is=``:then=`<img src="assets/uploads/images/noimage.gif">`:else=`<img src="[[+tv.image:phpthumbof=`w=600&h=315&zc=1`]]" alt="[[!fix?input=`[[+pagetitle]]`]]">`]]
+            <div class=details> 
+                <h4>[[+pagetitle]]</h4>
+                <time>[[+publishedon:date=`%d %b %Y`]]</time>
+            </div>
+        </a>
+    </article> 
+</div>
+```
