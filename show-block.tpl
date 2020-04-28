@@ -1,1 +1,1 @@
-[[*color:!empty=``]]
+[[*block:!empty=`[[*block]]`]]
