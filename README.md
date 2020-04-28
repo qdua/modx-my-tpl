@@ -114,3 +114,9 @@
     </article> 
 </div>
 ```
+
+
+#### Show block
+```html
+[[*show:!empty=`[[*block]]`]]
+```
