@@ -1,6 +1,6 @@
 # MODX Revo My Design
 
-### header
+### header (chunk)
 ```html
 <!DOCTYPE html>
 <html class="lang_[[!++cultureKey]]" lang="[[!++cultureKey]]" prefix="og: http://ogp.me/ns#">
@@ -20,7 +20,7 @@
 </head>
 ```
 
-### meta
+### meta (chunk)
 ```html
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"> 
@@ -58,7 +58,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 ```
 
-### main
+### Main ```main``` (template)
 ```html
 		[[$header]]
 		<main> 
@@ -70,7 +70,7 @@
 		[[$footer]]
 ``` 
 
-### footer
+### footer (chunk)
 ```html
         <footer>
             <pre  class="copy">&copy; [[!+nowdate:default=`now`:strtotime:date=`%Y`]] Coded by <a rel="author" href="//qd.ua/" target="_blank">qd.ua</a></pre>
