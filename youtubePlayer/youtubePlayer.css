@@ -1,0 +1,25 @@
+.ytPlayer {
+	background: #041b4b url(../images/spinner.svg) no-repeat center;
+	background-size: 50px auto;
+	display: block;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	transition: all 0.1s ease-out;
+}
+.ytPlayer {
+	animation: ytPlayer 1s 5s both;
+}
+@keyframes yt_player {
+	0% {
+		background-size: 50px auto;
+	}
+	100% {
+		background-size: 0;
+	}
+}
+.iframeStyle {
+	height: 400px;
+	width: 100%;
+}
