@@ -118,5 +118,5 @@
 
 #### Show block
 ```html
-[[*show:!empty=`[[*block]]`]]
+[[*block:!empty=`[[*block]]`]]
 ```
