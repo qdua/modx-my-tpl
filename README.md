@@ -2,7 +2,6 @@
 
 
 ### header
-
 ```html
 <!DOCTYPE html>
 <html class="lang_[[!++cultureKey]]" lang="[[!++cultureKey]]" prefix="og: http://ogp.me/ns#">
@@ -22,6 +21,8 @@
   <body>
     <div class="page">
 ```
+
+### meta
 ```html
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
