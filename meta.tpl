@@ -1,10 +1,10 @@
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"> 
 	<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">  
 	<meta name="image" content="[[!++site_url]][[*image?]]">
 	<meta name="author" content="QD"> 
 	<meta name="google" content="notranslate"> 
-	<meta name="application-name" content="ВГОІ УТОГ">
+	<meta name="application-name" content="QD">
 	<meta name="theme-color" content="#fe015b"> 
 	<meta name="msapplication-navbutton-color" content="#fe015b"> 
 	<meta name="apple-mobile-web-app-status-bar-style" content="#fe015b">
@@ -15,8 +15,7 @@
 	<link rel="apple-touch-icon" href="assets/templates/qd/images/ti/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="assets/templates/qd/images/ti/apple-touch-icon-76x76.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="assets/templates/qd/images/ti/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/templates/qd/images/ti/apple-touch-icon-152x152.png"> 
-	<meta name="google-site-verification" content="IBNiFUpJeIWyzTpzw16cbOdb6dXdypv4nykywiuW8Fw">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/templates/qd/images/ti/apple-touch-icon-152x152.png">  
 	<meta property="og:type" content="article">
 	<meta property="og:site_name" content="[[++site_name]]">
 	<meta property="og:title" content="[[*longtitle:notempty=`[[*longtitle]]`:default=`[[*pagetitle]]`]]">
