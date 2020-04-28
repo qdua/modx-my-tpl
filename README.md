@@ -22,7 +22,7 @@
 
 ### Meta ```meta``` (chunk)
 ```html
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"> 
 	<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">  
 	<meta name="image" content="[[!++site_url]][[*image?]]">
@@ -60,14 +60,14 @@
 
 ### Main ```main``` (template)
 ```html
-		[[$header]]
-		<main> 
-		    <div class="content">
-		        <h1 class="heading">[[*longtitle:default=`[[*pagetitle]]`]]</h1> 
-		        [[*content]]
-		    </div>
-		</main>
-		[[$footer]]
+[[$header]]
+	<main> 
+	    <div class="content">
+		<h1 class="heading">[[*longtitle:default=`[[*pagetitle]]`]]</h1> 
+		[[*content]]
+	    </div>
+	</main>
+[[$footer]]
 ``` 
 
 ### Footer ```footer``` (chunk)
