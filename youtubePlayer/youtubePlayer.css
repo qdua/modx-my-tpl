@@ -11,7 +11,7 @@
 .ytPlayer {
 	animation: ytPlayer 1s 5s both;
 }
-@keyframes yt_player {
+@keyframes ytPlayer {
 	0% {
 		background-size: 50px auto;
 	}
